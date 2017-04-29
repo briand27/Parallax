@@ -1,0 +1,32 @@
+/*
+Author: Brian Dai
+parallax.css file that styles parallax.html
+*/
+body {
+  font-family: impact, sans-serif;
+  font-size: 72pt;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+  text-shadow: 3px 3px 20px #334;
+}
+
+#top, #bottom {
+  font-family: cursive;
+  height: 300px;
+}
+
+#background {
+  background-image: url("https://static1.squarespace.com/static/5459ec52e4b04d305f68f1ed/t/548a96e1e4b0a10ad41ef12f/1418368738802/Pattern14.jpg");
+  box-shadow: inset 0px 0px 100px 3px #334;
+  height: 600px;
+}
+
+#matte {
+  color: white;
+}
